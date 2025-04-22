@@ -1,0 +1,33 @@
+{
+    "name": "fury-sdk-ts-example",
+    "version": "1.0.0",
+    "description": "TypeScript SDK and example usage for the Fury API",
+    "main": "dist/furySdk.js", 
+    "types": "dist/furySdk.d.ts", 
+    "scripts": {
+      "build": "tsc", 
+      "start": "ts-node example.ts", 
+      "start:prod": "npm run build && node dist/example.js", 
+      "clean": "rm -rf dist", 
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Your Name or Company", 
+    "license": "ISC", 
+    "dependencies": {
+      "@solana/web3.js": "^1.91.8", 
+      "axios": "^1.7.2",          
+      "bs58": "^5.0.0"           
+    },
+    "devDependencies": {
+      "@types/bs58": "^4.0.4",   
+      "@types/node": "^20.12.12",   
+      "ts-node": "^10.9.2",      
+      "typescript": "^5.4.5"     
+    },
+    "engines": {
+      "node": ">=18.0.0" 
+    },
+    "files": [ 
+      "dist"
+    ]
+  }

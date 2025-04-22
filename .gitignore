@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled TypeScript output (adjust 'dist/' if your tsconfig.json uses a different outDir)
+dist/
+*.js
+*.js.map
+*.d.ts
+# Exclude TS build info if generated
+tsconfig.tsbuildinfo
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage output
+coverage/
+
+# Optional: Lockfiles (Uncomment if you specifically DON'T want to commit lockfiles, though committing them is generally recommended for reproducible builds)
+# package-lock.json
+# yarn.lock

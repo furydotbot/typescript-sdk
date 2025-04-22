@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2016", // Or a newer version
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./", // Assuming .ts files are in the root
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "declaration": true, // Generate .d.ts files
+      "sourceMap": true    // Generate source maps for debugging
+    },
+    "include": ["*.ts"], // Include all .ts files in the root directory
+    "exclude": ["node_modules", "dist"]
+  }
