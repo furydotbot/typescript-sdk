@@ -142,7 +142,7 @@ const result = await sdk.sellTokenBatch(sellerWallets, config);
 
 ### Create Tokens
 
-You can create new tokens on different platforms like `pumpfun`, `bonk`, or `moon`.
+You can create new tokens on different platforms like `pump`, `bonk`, `moon`, `cook`, `boop`.
 
 ```typescript
 import { TokenCreateConfig, Platform } from 'fury-sdk';
